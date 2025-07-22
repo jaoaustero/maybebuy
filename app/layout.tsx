@@ -55,10 +55,24 @@ export default function RootLayout({
 						px-[24px]
 						bg-sky-100
 						h-[70vh]
-						rounded-t-[30px]">
+						rounded-t-[30px]
+						z-[2000]">
 						{children}
 					</div>
 				</main>
+
+				<nav className="fixed
+					bottom-[40px]
+					left-[0]
+					right-[0]
+					m-auto
+					h-[60px]
+					w-[180px]
+					bg-[#003D2D]
+					rounded-full
+					z-[3000]">
+					
+				</nav>
 			</body>
 		</html>
 	);
